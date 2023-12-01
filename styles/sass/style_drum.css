@@ -221,27 +221,16 @@ html {
   overflow: hidden;
 }
 
-html {
-  font-size: 10px;
-}
-
-body, html {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-}
-
-nav {
-  display: flex;
-}
-
 ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-a {
+nav {
+  display: flex;
+}
+nav a {
   padding-left: 20px;
   display: inline-block;
   color: palevioletred;
@@ -252,7 +241,7 @@ a {
 }
 
 html {
-  background: url("/assets/day_01/background.jpg") bottom center;
+  background: url("/assets/day_01/background.jpg") center;
   background-size: cover;
 }
 
